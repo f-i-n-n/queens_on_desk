@@ -1,0 +1,18 @@
+#for "queens on desk"
+
+#ignored all
+*
+
+#besides:
+	#build system file
+!CMakeLists.txt
+
+	#source files
+!check_queen.cpp
+!check_queen.hpp
+!main.cpp
+
+	# this file
+!.gitignore
+
+
