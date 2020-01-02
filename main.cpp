@@ -26,6 +26,7 @@ int main(void)
 
 	insert_queen((int32_t*)deck,0,0,1);
 	insert_queen((int32_t*)deck,7,7,5);
+    insert_queen((int32_t*)deck,3,2,3);
 
 	print_deck((int32_t*)(deck));
 
